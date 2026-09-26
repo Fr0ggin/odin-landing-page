@@ -8,7 +8,7 @@
     display: flex;
     gap: 16px;
     align-items: center;
-    padding-right: 200px;
+    padding: 10px 200px 100px 200px;
 }
 
 .logo{
@@ -21,3 +21,38 @@
 
 }
 
+.hero{
+    display: flex;
+    background-color: #1F2937 ;
+    justify-content: space-between;
+    padding: 0 200px;
+    gap: 32px;
+}
+
+.hero .left{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.hero .left .maintext{
+    font-size: 48px;
+    color:#F9FAF8;
+    font-weight: 900;
+}
+
+.hero .left .subtext{
+    font-size: 18px;
+    color:#E5E7EB;
+}
+
+.hero .left .button{
+    background-color: #3882F6;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    align-self: flex-start;
+    padding: 4px 8px;
+}
