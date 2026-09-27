@@ -87,4 +87,24 @@
 
 .text{
     color: #555f6c;
+    font-size: 18px;
+}
+
+.quote{
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 200px 100px 200px;
+    gap: 16px;
+}
+
+.quoty{
+    align-self: flex-end;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
 }
